@@ -7,20 +7,29 @@ body{
     max-width: 30cm;
     margin: 0 auto;
     padding: 20px;
-    background-color: #cecdce; /* ganti gambar org */
+    background-image: url(image/mylivewallpapers-com-Beautiful-Outdoors-4K.mp4); /* ganti gambar org */
+    background-size: cover;
     color: #fff;
 }
 
-#myBox{
+#myBox {
     width: 100%;
     box-sizing: border-box;
-    border: solid 5px #969d96; /* ni juga */
+    border: solid 5px #969d96;
     box-shadow: 20%;
     height: 380px;
     border: 5%;
     padding-top: 85px;
     margin-top: 90px;
-    background-color:dimgray;
+    background-color: rgba(105, 105, 105, 0.7); /* dimgray with 70% opacity */
+}
+
+/* Adjust the color of the text */
+#myBox h3,
+#myBox #time,
+#myBox select,
+#myBox button {
+    color: #000; /* Text color */
 }
 
 #time{
